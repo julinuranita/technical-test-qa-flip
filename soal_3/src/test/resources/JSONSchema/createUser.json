@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Create User Response",
+  "required": [
+    "name", "job", "id", "createdAt"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "job": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": ["null", "string"]
+    }
+  }
+}
